@@ -33,7 +33,6 @@ const PriceCalculator = () => {
         }
         setRow((old) => [...old, tempr])
 
-
         realValue.push(tempr)
         name.current.value = ''
         qt.current.value = ''
@@ -51,8 +50,6 @@ const PriceCalculator = () => {
               qt.current.value = ''
               document.getElementById("nameTxt").focus();
               //search in the row state the element with the same name as the req and replacet it with the result
-
-
             } else {
               return realValue.map(((prod, ind) => {
                 if (prod.name === datajson.name) {
@@ -67,7 +64,6 @@ const PriceCalculator = () => {
               }))
 
             }
-
           })
           .then((d) => {
 
@@ -75,8 +71,6 @@ const PriceCalculator = () => {
             setRow(d)
 
           })
-
-
       } catch (error) {
         console.error(error);
       }
