@@ -3,3 +3,25 @@
 } */
 
 
+input[type="checkbox"] {
+  /* removing default appearance */
+  /* -webkit-appearance: none;
+  appearance: none; */
+  /* creating a custom design */
+  /* width: 1.6em;
+  height: 1.6em;
+  border-radius: 0.15em;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  border: 0.15em solid #007a7e;
+  outline: none;
+  cursor: pointer; */
+
+    font-family: system-ui, sans-serif;
+      /* font-size: 2rem; */
+      /* font-weight: bold; */
+      /* line-height: 1.1; */
+      display: grid;
+      grid-template-columns: 1em auto;
+      gap: 0.5em;
+}
