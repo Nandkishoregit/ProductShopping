@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import image from './cswglogo.png';
+import image from './cswg-white-logo.svg';
 import './index.css'
 
 
